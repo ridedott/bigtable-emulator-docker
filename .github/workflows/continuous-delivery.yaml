@@ -37,6 +37,6 @@ jobs:
             --build-arg VERSION=$VERSION \
             --output=type=registry \
             --platform linux/amd64,linux/arm64 \
-            --tag ghcr.io/ridedott/bigtable-emulator:latest \
-            --tag ghcr.io/ridedott/bigtable-emulator:$VERSION \
+            --tag ghcr.io/ridedott/cloud-bigtable-emulator:latest \
+            --tag ghcr.io/ridedott/cloud-bigtable-emulator:$VERSION \
             .
