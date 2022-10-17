@@ -1,27 +1,20 @@
 # bigtable-emulator
 
-A Docker image running the GCP Bigtable Emulator.
+A Docker image running the Google Cloud Bigtable emulator.
 
 ## Usage
 
 ### From GitHub Packages Registry
 
 ```bash
-docker pull ghcr.io/ridedott/bigtable-emulator:latest
-docker run ridedott/bigtable-emulator:latest
-```
-
-### From Docker Hub
-
-```bash
-docker pull ridedott/bigtable-emulator:latest
-docker run ridedott/bigtable-emulator:latest
+docker pull ghcr.io/ridedott/cloud-bigtable-emulator:latest
+docker run ridedott/cloud-bigtable-emulator:latest
 ```
 
 ## Getting Started
 
-These instructions will get you an instance of the GCP bigtable-emulator running
-on your local machine for testing purposes.
+These instructions will get you an instance of the Google Cloud Bigtable
+emulator running on your local machine for testing purposes.
 
 ### Prerequisites
 
