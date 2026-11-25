@@ -1,7 +1,7 @@
 FROM google/cloud-sdk:405.0.0-alpine
 
 ENV CLOUDSDK_CORE_DISABLE_PROMPTS 1
-ENV BIGTABLE_EMULATOR_HOST localhost:8086
+ENV BIGTABLE_EMULATOR_HOST 0.0.0.0:8086
 
 RUN gcloud components install -q bigtable beta
 
