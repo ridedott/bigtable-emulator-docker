@@ -13,6 +13,8 @@ updates:
       - 'ridedott/vehicle-integrations'
     schedule:
       interval: daily
+    cooldown:
+      default-days: 30
   - allow:
       - dependency-type: direct
     commit-message:
@@ -25,3 +27,7 @@ updates:
       - 'ridedott/vehicle-integrations'
     schedule:
       interval: daily
+    cooldown:
+      default-days: 30
+      exclude:
+        - 'ridedott/*'
